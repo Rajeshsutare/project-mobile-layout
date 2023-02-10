@@ -1,0 +1,350 @@
+
+/* <!-- main-section started --> */
+body
+{
+	font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.main-section{
+	padding:45px 0 65px 0;
+	background-color:#d95142;
+	background-image:linear-gradient(rgb(220,87,72,0.5),rgb(220,87,72,0.5)),url("../img/mobile-bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	overflow:hidden;
+	margin-bottom:85px;
+}
+/* <!-- header starts --> */
+
+.navbar ul{
+	display:inline-block;
+}
+.navbar ul li{
+	display:inline-block;
+	margin-left:20px;
+}
+.navbar ul li a{
+	display:inline-block;
+	text-decoration:none;
+	padding:10px 10px;
+	text-transform:uppercase;
+	color:#ffffff;
+	font-size:16px;
+	position:relative;
+}
+
+.navbar ul li a::after{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:0;
+	height:3px;
+	background-color:lime;
+	transition:all 0.5s ease-in-out;	
+}
+.navbar ul li a:hover::after{
+	width:100%;
+}
+.navbar li a:active, .navbar li a:focus{
+	background-color:#2e2e2e;
+}
+.logo{
+	margin-bottom:145px;
+}
+/* <!-- header end --> */
+.col-6 .heading{
+	font-size:52px;
+	color:#ffffff;
+	font-weight:bold;
+	line-height:57.5px;
+	margin-bottom:60px;
+	text-transform:uppercase;	
+}
+.col-6 .para-info{
+	font-size:36px;
+	color:#ffffff;
+	font-weight:400;
+	line-height:45px;
+	margin-bottom:50px;
+}
+.img-info{
+	position:relative;
+}
+.img-info img{
+	margin-top:calc(110px - 145px);
+	margin-left:100px;
+	display:inline-block;
+	position:absolute;
+	width:70%;
+}
+.icon a{
+	text-decoration:none;
+	font-size:17px;
+	font-weight:bold;
+	color:#fff;
+	padding:30px 50px 30px 35px;
+	background-color:#282828;
+	border-radius:40px;
+	text-transform:uppercase;
+	
+}
+.icon i{
+	margin-right:20px;
+	display:inline-block;
+	color:#fff;
+	vertical-align:middle;
+}
+
+/* <!-- main-section end--> */
+/* <!-- feature-section starts--> */
+.feature-heading {
+	text-align:center;
+	color:#8a8a8a;
+	font-size:52px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+.feature-para{
+	text-align:center;
+	font-size:22px;
+	color:#3a3a3a;
+	font-weight:400;
+	line-height:30px;
+	margin-bottom:85px;
+
+}
+.about-info{
+	text-align:center;
+}
+.about-info img{
+	width:180px;
+	height:180px;
+	/* margin-right:215px; */
+	display:inline-block;
+	margin-bottom:35px;
+	
+}
+.about-info img:nth-child(3){
+	margin-right:0;
+}
+.about-info .col-4 h3{
+	color:#1a1a1a;
+	font-weight:bold;
+	font-size:24px;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	
+}
+.about-info .col-4 p{
+	color:#646464;
+	font-weight:400;
+	font-size:18px;
+	line-height:30px;
+	display:inline-block;
+	padding:0 30px;
+	margin-bottom:110px;
+	
+}
+
+/* <!-- feature-section end--> */
+/* <!-- joker-section start--> */
+.joker-section{
+		/* background-color:#d7dedc; */
+		background-image:url("../img/cake.jpeg");	
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+		background-attachment:fixed;
+		
+	}
+	.jk h2{
+	padding-top:200px;
+	color:#fff;
+	font-weight:bold;
+	font-size:44px;	
+	text-transform:uppercase;
+	line-height:62px;
+	margin-bottom:55px;
+	
+	}
+	.jk h2 span{
+	color:#f55150;
+	font-weight:bold;
+	font-size:44px;
+	text-transform:uppercase;
+		
+	}
+	.jk p{
+	color:#585858;
+	font-weight:400;
+	font-size:24px;	
+	line-height:37.5px;
+	margin-bottom:75px;
+	width:60%;
+	}
+	.jk-img img{
+	overflow:hidden;
+	}
+	.button {
+		background-color:#d9332d;
+		height:50px;
+		width:140px;
+		padding:15px 24px;
+		border-radius:40px;
+		text-align:center;
+		margin-bottom:170px;
+	}
+	.button a{
+		text-decoration:none;
+		text-transform:uppercase;
+		color:#fff;
+		font-size:16px;
+		font-weight:bold;
+	
+	}
+	
+	/* <!-- joker-section end-> */
+	/* <!--footer-section start--> */
+	.footer{
+		background-color:#2e2e38;
+		padding-top:115px;
+	
+	font-family: 'Montserrat', sans-serif;
+
+	}
+	
+	.footer .footer-logo a img{
+		margin-bottom:60px;
+	}
+	.footer .box{
+		width:55px;
+		height:40px;
+		background-color:#e74c3c;
+		margin-bottom:30px;
+		
+	
+	}
+
+	.col-4 h3{
+		font-size:20px;
+		font-weight:bold;
+		color:#fff;
+		margin-bottom:30px;
+	
+	}
+	.footer-info ul{
+		display:inline-block;
+	}
+	.footer-info ul li{
+		color:#fff;
+		font-size:15px;
+		font-weight:400;
+		list-style-type:none;
+		position:relative;
+		left:70px;
+		top:-70px;
+		line-height:20px;
+	
+	}
+	
+	.bm-150{
+		 margin-bottom:150px;
+	}
+	.ftr-info h3{
+		display:inline-block;
+		padding-top:120px;
+		margin-bottom:30px;
+		color:#fff;
+		font-weight:bold;
+		font-size:20px;
+	}
+	.ftr-info ul li{
+		color:#fff;
+		font-weight:400;
+		list-style-type:none;
+		
+	}
+	.ftr-info ul li .mb-10{
+		margin-bottom:10px;
+		font-size:14px;
+		font-weight:bold;
+	}
+	.ftr-info ul li .font-11{
+		font-size:11px;
+		font-weight:400;
+		
+	}
+	.ftr-info ul p{
+		color:#fff;
+		font-size:15px;
+		font-weight:400;
+		list-style-type:none;
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.ftr-info  p{
+		color:#fff;
+		font-size:15px;
+		font-weight:italic;
+		margin-bottom:30px;
+		line-height:25px;
+		width:75%;
+		font-family:italic;
+	
+	}
+	/* <!--footer-section end--> */
+/* <!--footer-section-bottom start--> */
+footer{
+	background-color:#d7dedc;
+	padding:45px 0;
+}
+.footer-info-section{
+
+font-family: 'Roboto', sans-serif;
+
+}
+.footer-info-section p, .footer-info-section .social-icon {
+	display:inline-block;
+	
+}
+.footer-info-section p{
+	font-size:25px;
+	font-weight:400;
+	color:#000;
+	border-right:2px solid #000;
+	padding-right:20px;
+	margin-right:20px;
+}
+.footer-info-section p a{
+		color:#000;
+}
+.footer-info-section .social-icon a{
+	background-color:#395797;
+	color:#fff;
+	height:40px;
+	width:40px;
+	padding:10px;
+	margin-right:25px;
+	border-radius:5px;
+	
+}
+.footer-info-section .social-icon a:nth-child(2){
+	background-color:#dc3b7b;
+}
+.footer-info-section .social-icon a:nth-child(3){
+	background-color:#a5e8ea;
+}
+	
+/* <!--footer-section-bottom end--> */
